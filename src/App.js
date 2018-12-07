@@ -6,7 +6,7 @@ class App extends Component {
     constructor(props) {
         super(props)
 
-        this.apiUrl = "//localhost:3080/contact"
+        this.apiUrl = "/contact"
 
         this.state = {
             busy: false,
