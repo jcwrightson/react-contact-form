@@ -78,7 +78,8 @@ class App extends Component {
                <button ref={(e)=>{this.btnSend = e}}>
                    {this.state.busy && <span><img src="./images/busy.svg"/></span>}
                    {this.state.success && <span><img src="./images/done.svg"/></span>}
-                   Send
+                   {this.state.success && <span>Sent</span>}
+                   {!this.state.success && <span>Send</span>}
                </button>
 
 
