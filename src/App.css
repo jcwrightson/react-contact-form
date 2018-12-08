@@ -17,7 +17,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-button span, button img{
+button span svg, button img{
   width: 18px;
   height: 18px;
 }
